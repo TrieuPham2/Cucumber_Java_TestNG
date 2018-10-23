@@ -1,0 +1,16 @@
+spark/pages/LanguagePage.class
+spark/pages/OptionsPage.class
+spark/utils/TestUtils.class
+core/SystemPropertiesConfiguration.class
+spark/actions/Hooks.class
+spark/pages/IntroPage.class
+core/Mobile.class
+core/AbstractTest.class
+spark/actions/Login.class
+spark/pages/AbstractPage.class
+spark/pages/MainPage.class
+spark/steps/UserSteps.class
+spark/TestRunner.class
+spark/actions/Example.class
+spark/pages/LoginPage.class
+spark/actions/ChangeLanguage.class

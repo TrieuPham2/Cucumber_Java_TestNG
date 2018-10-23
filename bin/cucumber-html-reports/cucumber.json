@@ -1,0 +1,504 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 410859637,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I didnt install Facebook application",
+            "match": {
+              "location": "Login.i_didnt_install_Facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4290204953,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Sign in with Facebook button",
+            "match": {
+              "location": "Login.i_click_on_Sign_in_with_Facebook_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29024563337,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"axon.spark.test1@gmail.com\" and \"fortesting\" then click Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "axon.spark.test1@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "fortesting",
+                  "offset": 42
+                }
+              ],
+              "location": "Login.I_enter_and_then_click_Login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3233599119,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Ok to authorize the app",
+            "match": {
+              "location": "Login.I_click_Ok_to_authorize_the_app()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6450997529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User changes from English to Vietnamese",
+        "description": "",
+        "id": "change-language-of-spark-application;user-changes-from-english-to-vietnamese",
+        "after": [
+          {
+            "result": {
+              "duration": 13034455752,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142164,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Currently selected language is English",
+            "match": {
+              "location": "ChangeLanguage.Currently_selected_language_is_English()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2374742696,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I go to Options screen",
+            "match": {
+              "location": "ChangeLanguage.I_go_to_Options_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1455823287,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I go to Language screen",
+            "match": {
+              "location": "ChangeLanguage.I_go_to_Language_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4148728644,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I change the language from English to Vietnamese",
+            "match": {
+              "location": "ChangeLanguage.I_change_the_language_from_English_to_Vietnamese()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581879176,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Language is changed to Vietnamese",
+            "match": {
+              "location": "ChangeLanguage.Language_is_changed_to_Vietnamese()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@before"
+          },
+          {
+            "line": 11,
+            "name": "@after"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 121054,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I didnt install Facebook application",
+            "match": {
+              "location": "Login.i_didnt_install_Facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4201111173,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Sign in with Facebook button",
+            "match": {
+              "location": "Login.i_click_on_Sign_in_with_Facebook_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29104918123,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"axon.spark.test1@gmail.com\" and \"fortesting\" then click Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "axon.spark.test1@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "fortesting",
+                  "offset": 42
+                }
+              ],
+              "location": "Login.I_enter_and_then_click_Login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2606829421,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Ok to authorize the app",
+            "match": {
+              "location": "Login.I_click_Ok_to_authorize_the_app()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4270016253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User changes from Vietnamese to English",
+        "description": "",
+        "id": "change-language-of-spark-application;user-changes-from-vietnamese-to-english",
+        "after": [
+          {
+            "result": {
+              "duration": 12981002987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124286,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Currently selected language is Vietnamese",
+            "match": {
+              "location": "ChangeLanguage.Currently_selected_language_is_Vietnamese()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3209442595,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I go to Options screen",
+            "match": {
+              "location": "ChangeLanguage.I_go_to_Options_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1417353779,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I go to Language screen",
+            "match": {
+              "location": "ChangeLanguage.I_go_to_Language_screen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3367779575,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I change the language from Vietnamese to English",
+            "match": {
+              "location": "ChangeLanguage.I_change_the_language_from_Vietnamese_to_English()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865796551,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Language is changed to English",
+            "match": {
+              "location": "ChangeLanguage.Language_is_changed_to_English()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@before"
+          },
+          {
+            "line": 19,
+            "name": "@after"
+          }
+        ]
+      }
+    ],
+    "name": "Change language of Spark application",
+    "description": "As a user I want to change the displayed language",
+    "id": "change-language-of-spark-application",
+    "keyword": "Feature",
+    "uri": "ChangeLanguage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      },
+      {
+        "line": 1,
+        "name": "@ChangeLanguage"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4495403020,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User login Spark without Facebook installation",
+        "description": "",
+        "id": "cucumber-study;user-login-spark-without-facebook-installation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3736165527,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 141913,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I didnt install Facebook application",
+            "match": {
+              "location": "Login.i_didnt_install_Facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5734922853,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Sign in with Facebook button",
+            "match": {
+              "location": "Login.i_click_on_Sign_in_with_Facebook_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28901786412,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"axon.spark.test1@gmail.com\" and \"fortesting\" then click Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "axon.spark.test1@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "fortesting",
+                  "offset": 42
+                }
+              ],
+              "location": "Login.I_enter_and_then_click_Login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2594995044,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Ok to authorize the app",
+            "match": {
+              "location": "Login.I_click_Ok_to_authorize_the_app()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10527286851,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The Main screen should be displayed",
+            "match": {
+              "location": "Login.the_Main_screen_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          },
+          {
+            "line": 5,
+            "name": "@after"
+          },
+          {
+            "line": 5,
+            "name": "@before"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber study",
+    "description": "As a user I want to login to Spark",
+    "id": "cucumber-study",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      },
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]

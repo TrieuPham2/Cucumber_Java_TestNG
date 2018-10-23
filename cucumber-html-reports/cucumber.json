@@ -1,0 +1,76 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "I want to execute a specific feature",
+        "description": "",
+        "id": "just-an-example;i-want-to-execute-a-specific-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11278372500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Maven plugin is awesome",
+            "match": {
+              "location": "Example.Maven_plugin_is_awesome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I already installed Jenkins",
+            "match": {
+              "location": "Example.I_already_installed_Jenkins()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I use Maven command to control Cucumber",
+            "match": {
+              "location": "Example.I_use_Maven_command_to_control_Cucumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I know how to operate the test",
+            "match": {
+              "location": "Example.I_know_how_to_operate_the_test()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Just an example",
+    "description": "Just an example",
+    "id": "just-an-example",
+    "keyword": "Feature",
+    "uri": "Example.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Example"
+      }
+    ]
+  }
+]
